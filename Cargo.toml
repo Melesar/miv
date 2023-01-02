@@ -5,6 +5,9 @@ edition = "2021"
 authors = ["Sergey Pikhota <sergey@pikhota.com>"]
 description = "A crate for working with Roman numerals"
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Melesar/roman"
+categories = ["value-formatting"]
 
 [dependencies]
 thiserror = "*"
