@@ -2,6 +2,9 @@
 name = "roman"
 version = "0.1.0"
 edition = "2021"
+authors = ["Sergey Pikhota <sergey@pikhota.com>"]
+description = "A crate for working with Roman numerals"
+license = "MIT"
 
 [dependencies]
 thiserror = "*"
