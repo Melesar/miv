@@ -10,7 +10,7 @@ repository = "https://github.com/Melesar/miv"
 categories = ["value-formatting"]
 
 [dependencies]
-thiserror = "*"
+thiserror = "1.0.38"
 
 [dev-dependencies]
-anyhow = "*"
+anyhow = "1.0.68"
