@@ -8,19 +8,19 @@ pub struct Roman(u16);
 
 const MAX_REPETITIONS : u8 = 3;
 
-const I: Roman = Roman(1);
-const IV: Roman = Roman(4);
-const V: Roman = Roman(5);
-const IX: Roman = Roman(9);
-const X: Roman = Roman(10);
-const XL: Roman = Roman(40);
-const L: Roman = Roman(50);
-const XC: Roman = Roman(90);
-const C: Roman = Roman(100);
-const CD: Roman = Roman(400);
-const D: Roman = Roman(500);
-const CM: Roman = Roman(900);
-const M: Roman = Roman(1000);
+pub const I: Roman = Roman(1);
+pub const IV: Roman = Roman(4);
+pub const V: Roman = Roman(5);
+pub const IX: Roman = Roman(9);
+pub const X: Roman = Roman(10);
+pub const XL: Roman = Roman(40);
+pub const L: Roman = Roman(50);
+pub const XC: Roman = Roman(90);
+pub const C: Roman = Roman(100);
+pub const CD: Roman = Roman(400);
+pub const D: Roman = Roman(500);
+pub const CM: Roman = Roman(900);
+pub const M: Roman = Roman(1000);
 
 const ROMANS_TO_STRINGS: [(Roman, &'static str); 13] = [
     (I, "I"),

@@ -1,12 +1,12 @@
 [package]
-name = "roman"
+name = "miv"
 version = "0.1.0"
 edition = "2021"
 authors = ["Sergey Pikhota <sergey@pikhota.com>"]
 description = "A crate for working with Roman numerals"
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/Melesar/roman"
+repository = "https://github.com/Melesar/miv"
 categories = ["value-formatting"]
 
 [dependencies]
