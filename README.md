@@ -26,7 +26,7 @@ let invalid_twenty = Roman::from_string("XVV");
 assert_eq!(invalid_twenty, Err(Error::InvalidSequence(Roman::V, Roman::V)));
 	
 let ones_in_the_beginning = Roman::from_string("IIIX");
-assert_eq!(ones_in_the_beginning, Err(Error::InvalidSequence(Roman::I, Roman::X)));
+assert_eq!(ones_in_the_beginning, Err(Error::InvalidSequence(Roman::I, Roman::IX)));
 ```
 
 It also has other safeguards, like no more than 3 instances of the same number in a row, no empty strings, no non-roman characters, no number 0.
