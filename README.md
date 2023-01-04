@@ -16,7 +16,7 @@ assert_eq!(roman.as_string(), String::from("XLVIII"));
 MIV applies strict rules on parsing the roman strings. It tries to make sure that the string passed is actually a valid roman numeral, not just a collection of numbers written in a row. For example:
 
 ```rust
-let valid_143 = Roman::from_string("CXLII");
+let valid_143 = Roman::from_string("CXLIII");
 assert_eq!(valid_143, Ok(Roman(143)));
 
 let invalid_ten = Roman::from_string("IXI");
